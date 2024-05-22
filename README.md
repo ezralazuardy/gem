@@ -7,7 +7,7 @@
 
 A more fun way to interact with Gemini.
 
-### 🚀 Getting Started
+#### 🚀 Getting Started
 
 Install the package
 
@@ -19,7 +19,6 @@ Setup the Environment Variables
 
 ```bash
 GEMINI_API_KEY="<YOUR_GEMINI_API_KEY>"
-GEMINI_MODEL_ID="gemini-pro"
 ```
 
 Ask the Gemini 💎
@@ -32,7 +31,15 @@ const response = await ask("What is the weather today?");
 console.log(response);
 ```
 
-### 📖 Documentation
+#### ⚙️ Using Specific Model
+
+By default, the model used is `gemini-pro`. You can change it by setting the `GEMINI_MODEL_ID` environment variable.
+
+```bash
+GEMINI_MODEL_ID="gemini-pro"
+```
+
+#### 📖 Documentation
 
 A proper documentation is still in progress.
 
