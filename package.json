@@ -1,14 +1,14 @@
 {
   "name": "@ezralazuardy/gem",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "💎 A more fun way to interact with Gemini.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "/dist"
-  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": ["/dist"],
   "scripts": {
-    "lint": "tsc"
+    "build": "tsc",
+    "lint": "eslint src/ --cache"
   },
   "repository": {
     "type": "git",
@@ -38,9 +38,21 @@
     "@ai-sdk/google": "^0.0.14",
     "ai": "^3.1.12",
     "dotenv": "^16.4.5",
-    "typescript": "^5.4.5"
+    "openai": "^4.47.1",
+    "react": "^18.3.1",
+    "typescript": "^5.4.5",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@types/node": "^20.12.12"
+    "@eslint/compat": "^1.0.1",
+    "@eslint/js": "^9.3.0",
+    "@types/json-schema": "^7.0.15",
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^9.3.0",
+    "eslint-plugin-react": "^7.34.1",
+    "globals": "^15.3.0",
+    "typescript-eslint": "^7.10.0"
   }
 }

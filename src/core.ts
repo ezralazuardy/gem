@@ -1,6 +1,14 @@
+import { google } from "@ai-sdk/google";
 import { generateText } from "ai";
-import { TextResponse } from "@/src/type";
-import model from "@/src/model";
+import { TextResponse } from "@/src/types";
+import "@/src/env";
+
+/**
+ * The model to use for generating text.
+ */
+const model = google(
+  process.env.GOOGLE_GENERATIVE_AI_MODEL ?? "models/gemini-pro",
+);
 
 /**
  * Generate text based on the prompt.
