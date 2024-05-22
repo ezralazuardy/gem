@@ -1,0 +1,30 @@
+{
+  "name": "gem",
+  "version": "0.0.1",
+  "description": "A more fun way to interact with Gemini.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezralazuardy/gem.git"
+  },
+  "keywords": [
+    "gem",
+    "gemini",
+    "google",
+    "ai",
+    "npm",
+    "pnpm",
+    "yarn",
+    "bun",
+    "next"
+  ],
+  "author": "Ezra Lazuardy <ezra@lazuardy.tech>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezralazuardy/gem/issues"
+  },
+  "homepage": "https://github.com/ezralazuardy/gem#readme"
+}
