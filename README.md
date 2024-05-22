@@ -7,6 +7,8 @@
 
 A more fun way to interact with Gemini.
 
+🚧 This package is still under heavy development. Beware of breaking changes.
+
 #### 🚀 Getting Started
 
 First, install the package
@@ -49,9 +51,7 @@ As of `v0.0.1`, the following models are available:
 - `gemini-pro` (default)
 
 > Plase refer to these references:
->
-> - [Vercel AI Models](https://sdk.vercel.ai/providers/ai-sdk-providers/google-generative-ai#model-capabilities)
-> - [Gemini API Models](https://ai.google.dev/gemini-api/docs/models/gemini)
+> [Vercel AI Models](https://sdk.vercel.ai/providers/ai-sdk-providers/google-generative-ai#model-capabilities), [Gemini API Models](https://ai.google.dev/gemini-api/docs/models/gemini)
 
 #### 📖 Documentation
 
