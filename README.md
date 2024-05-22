@@ -1,6 +1,9 @@
 <div>
-  <img alt="License" src="https://img.shields.io/github/license/ezralazuardy/gem" />
   <img alt="CodeQL Analysis" src="https://github.com/ezralazuardy/gem/actions/workflows/github-code-scanning/codeql/badge.svg" />
+  <img alt="NPM License" src="https://img.shields.io/npm/l/%40ezralazuardy%2Fgem" />
+  <img alt="NPM Unpacked Size" src="https://img.shields.io/npm/v/%40ezralazuardy%2Fgem" />
+  <img alt="NPM Unpacked Size" src="https://img.shields.io/npm/unpacked-size/%40ezralazuardy%2Fgem" />
+  <img alt="NPM Type Definitions" src="https://img.shields.io/npm/types/%40ezralazuardy%2Fgem" />
 </div>
 
 ## 💎 gem
@@ -67,7 +70,7 @@ As of `v0.0.1`, the following models are available:
 - `gemini-1.5-pro-latest`
 
 > Plase refer to these references:
-> [Vercel AI Models](https://sdk.vercel.ai/providers/ai-sdk-providers/google-generative-ai#model-capabilities), [Gemini API Models](https://ai.google.dev/gemini-api/docs/models/gemini), [Gemini API Pricing](https://ai.google.dev/gemini-api/pricing).
+> [Gemini API Models](https://ai.google.dev/gemini-api/docs/models/gemini), [Gemini API Pricing](https://ai.google.dev/gemini-api/pricing).
 
 <br/>
 

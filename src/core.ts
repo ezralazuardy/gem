@@ -4,11 +4,14 @@ import { TextResponse } from "./types";
 import "./env";
 
 /**
+ * The model ID to use for generating text.
+ */
+const modelID = `models/${process.env.GOOGLE_GENERATIVE_AI_MODEL ?? "gemini-pro"}`;
+
+/**
  * The model to use for generating text.
  */
-const model = google(
-  process.env.GOOGLE_GENERATIVE_AI_MODEL ?? "models/gemini-pro",
-);
+const model = google(modelID);
 
 /**
  * Generate text based on the prompt.
@@ -20,6 +23,7 @@ export const ask = async (prompt: string): Promise<TextResponse> => {
   const result = await generateText({ prompt, model });
 
   return {
+    model: modelID,
     text: result.text,
     finishReason: result.finishReason,
     usage: result.usage,

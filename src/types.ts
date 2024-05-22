@@ -2,6 +2,9 @@ import { FinishReason, CallWarning } from "ai";
 
 // the response from the generateText function.
 export type TextResponse = {
+  // the model ID.
+  model: string;
+
   // the generated text.
   text: string;
 

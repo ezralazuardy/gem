@@ -1,6 +1,6 @@
 {
   "name": "@ezralazuardy/gem",
-  "version": "0.0.4",
+  "version": "0.0.8",
   "description": "💎 A more fun way to interact with Gemini.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -8,7 +8,8 @@
   "files": ["/dist"],
   "scripts": {
     "build": "tsc",
-    "lint": "eslint src/ --cache"
+    "lint": "eslint src/ --cache",
+    "prepare": "npm run build && npm run lint"
   },
   "repository": {
     "type": "git",
