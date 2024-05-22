@@ -73,7 +73,7 @@ As of `v0.0.1`, the following models are available:
 
 ### 🚥 Roadmap
 
-This package is still under heavy development. The following features are planned to be implemented in the future.
+The following features are planned to be implemented in the future.
 
 | Supported | Method           | Version   | Usage                                                    |
 | --------- | ---------------- | --------- | -------------------------------------------------------- |
