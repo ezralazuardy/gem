@@ -63,8 +63,8 @@ Please beware of the pricing and capabilities of each model.
 
 As of `v0.0.1`, the following models are available:
 
-- `gemini-1.5-pro-latest`
 - `gemini-pro` (default)
+- `gemini-1.5-pro-latest`
 
 > Plase refer to these references:
 > [Vercel AI Models](https://sdk.vercel.ai/providers/ai-sdk-providers/google-generative-ai#model-capabilities), [Gemini API Models](https://ai.google.dev/gemini-api/docs/models/gemini), [Gemini API Pricing](https://ai.google.dev/gemini-api/pricing).
