@@ -1,4 +1,5 @@
 <div>
+  <img alt="Build" src="https://github.com/ezralazuardy/gem/actions/workflows/build.yml/badge.svg" />
   <img alt="CodeQL Analysis" src="https://github.com/ezralazuardy/gem/actions/workflows/github-code-scanning/codeql/badge.svg" />
   <img alt="NPM License" src="https://img.shields.io/npm/l/%40ezralazuardy%2Fgem" />
   <img alt="NPM Unpacked Size" src="https://img.shields.io/npm/v/%40ezralazuardy%2Fgem" />
