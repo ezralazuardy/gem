@@ -65,7 +65,18 @@ As of `v0.0.1`, the following models are available:
 - `gemini-pro` (default)
 
 > Plase refer to these references:
-> [Vercel AI Models](https://sdk.vercel.ai/providers/ai-sdk-providers/google-generative-ai#model-capabilities), [Gemini API Models](https://ai.google.dev/gemini-api/docs/models/gemini), [Gemini API Pricing](https://ai.google.dev/gemini-api/pricing)
+> [Vercel AI Models](https://sdk.vercel.ai/providers/ai-sdk-providers/google-generative-ai#model-capabilities), [Gemini API Models](https://ai.google.dev/gemini-api/docs/models/gemini), [Gemini API Pricing](https://ai.google.dev/gemini-api/pricing).
+
+<br/>
+
+### 🚥 Roadmap
+
+| Supported | Method           | Version   | Usage                                                    |
+| --------- | ---------------- | --------- | -------------------------------------------------------- |
+| 🟢        | `ask`            | `v0.0.1+` | Generates text for a given prompt.                       |
+| 🔴        | `askByStream`    | `-`       | Streams a text generations.                              |
+| 🔴        | `object`         | `-`       | Generates a typed, structured object for a given prompt. |
+| 🔴        | `objectByStream` | `-`       | Streams a typed, structured object for a given prompt.   |
 
 <br/>
 
