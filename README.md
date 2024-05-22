@@ -33,18 +33,6 @@ console.log(response);
 
 Yup, just like that! Simple, right?
 
-#### 📦 Model Capabilities
-
-As of `gem@0.0.1`, the following models are available:
-
-- `gemini-1.5-pro-latest`
-- `gemini-pro` (default)
-
-> Plase refer to these references:
->
-> - https://sdk.vercel.ai/providers/ai-sdk-providers/google-generative-ai#model-capabilities
-> - https://ai.google.dev/gemini-api/docs/models/gemini
-
 #### ⚙️ Using Specific Model
 
 By default, the model used is `gemini-pro`. You can change it by setting the `GEMINI_MODEL_ID` environment variable.
@@ -52,6 +40,18 @@ By default, the model used is `gemini-pro`. You can change it by setting the `GE
 ```bash
 GEMINI_MODEL_ID="gemini-pro"
 ```
+
+#### 📦 Model Capabilities
+
+As of `v0.0.1`, the following models are available:
+
+- `gemini-1.5-pro-latest`
+- `gemini-pro` (default)
+
+> Plase refer to these references:
+>
+> - [Vercel AI Models](https://sdk.vercel.ai/providers/ai-sdk-providers/google-generative-ai#model-capabilities)
+> - [Gemini API Models](https://ai.google.dev/gemini-api/docs/models/gemini)
 
 #### 📖 Documentation
 
