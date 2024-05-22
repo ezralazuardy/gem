@@ -7,11 +7,21 @@
 
 A more fun way to interact with Gemini.
 
+```typescript
+await ask("how to install @ezralazuardy/gem in node.js?");
+```
+
+Gem is a simple package that allows you to interact with the Gemini API in a more human-friendly way. It's like talking to a friend, but in a more professional way.
+
+It's simplify the process of sending requests to the Gemini API, so you can focus more on the conversation itself, it's even more simpler than other API wrappers.
+
 🚧 This package is still under heavy development. Beware of breaking changes.
 
-<br/><br/>
+<br/>
 
 ### 🚀 Getting Started
+
+It's only require 3 simple steps to get started.
 
 Install the package
 
@@ -25,12 +35,12 @@ Set the environment variables
 GEMINI_API_KEY="<YOUR_GEMINI_API_KEY>"
 ```
 
-Then, just ask the Gemini.
+Ask the Gemini.
 
 ```typescript
 import { ask } from "@ezralazuardy/gem";
 
-const response = await ask("What is the weather today?");
+const response = await ask("what is the weather today?");
 
 console.log(response);
 ```
@@ -39,7 +49,7 @@ Yup, just like that! Simple, right?
 
 For advanced usage, please read the [documentation](#-documentation) below.
 
-<br/><br/>
+<br/>
 
 ### ⚙️ Using Specific Model
 
@@ -49,9 +59,7 @@ By default, the model used is `gemini-pro`. You can change it by setting the `GE
 GEMINI_MODEL_ID="gemini-pro"
 ```
 
-<br/><br/>
-
-### 📦 Model Capabilities
+Please beware of the pricing and capabilities of each model.
 
 As of `v0.0.1`, the following models are available:
 
@@ -59,9 +67,9 @@ As of `v0.0.1`, the following models are available:
 - `gemini-pro` (default)
 
 > Plase refer to these references:
-> [Vercel AI Models](https://sdk.vercel.ai/providers/ai-sdk-providers/google-generative-ai#model-capabilities), [Gemini API Models](https://ai.google.dev/gemini-api/docs/models/gemini)
+> [Vercel AI Models](https://sdk.vercel.ai/providers/ai-sdk-providers/google-generative-ai#model-capabilities), [Gemini API Models](https://ai.google.dev/gemini-api/docs/models/gemini), [Gemini API Pricing](https://ai.google.dev/gemini-api/pricing)
 
-<br/><br/>
+<br/>
 
 ### 📖 Documentation
 
