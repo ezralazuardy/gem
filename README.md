@@ -9,22 +9,26 @@ A more fun way to interact with Gemini.
 
 ### 🚀 Getting Started
 
-Install the package.
+Install the package
 
 ```bash
 npm install @ezralazuardy/gem
 ```
 
-Import it,
+Setup the Environment Variables
 
-```typescript
-import { ask } from "@ezralazuardy/gem";
+```bash
+GEMINI_API_KEY="<YOUR_GEMINI_API_KEY>"
+GEMINI_MODEL_ID="gemini-pro"
 ```
 
 Ask the Gemini 💎
 
 ```typescript
+import { ask } from "@ezralazuardy/gem";
+
 const response = await ask("What is the weather today?");
+
 console.log(response);
 ```
 
