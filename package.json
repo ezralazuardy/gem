@@ -1,6 +1,6 @@
 {
   "name": "@ezralazuardy/gem",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "💎 A more fun way to interact with Gemini.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

@@ -1,2 +1,2 @@
-export { ask } from "@/src/core";
-export * from "@/src/types";
+export * from "./core";
+export * from "./types";

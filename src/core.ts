@@ -1,7 +1,7 @@
 import { google } from "@ai-sdk/google";
 import { generateText } from "ai";
-import { TextResponse } from "@/src/types";
-import "@/src/env";
+import { TextResponse } from "./types";
+import "./env";
 
 /**
  * The model to use for generating text.

@@ -16,10 +16,7 @@
     "target": "ES2019",
     "noEmitOnError": true,
     "downlevelIteration": true,
-    "incremental": true,
-    "paths": {
-      "@/*": ["./*"]
-    }
+    "incremental": true
   },
   "include": ["./src/**/*", "env.d.ts"],
   "exclude": ["./**/dist", "examples", "node_modules"]
