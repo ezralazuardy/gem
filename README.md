@@ -9,6 +9,8 @@ A more fun way to interact with Gemini.
 
 🚧 This package is still under heavy development. Beware of breaking changes.
 
+<br/><br/>
+
 ### 🚀 Getting Started
 
 Install the package
@@ -34,7 +36,10 @@ console.log(response);
 ```
 
 Yup, just like that! Simple, right?
-For advanced usage, please read the [documentation](#-documentation).
+
+For advanced usage, please read the [documentation](#-documentation) below.
+
+<br/><br/>
 
 ### ⚙️ Using Specific Model
 
@@ -43,6 +48,8 @@ By default, the model used is `gemini-pro`. You can change it by setting the `GE
 ```bash
 GEMINI_MODEL_ID="gemini-pro"
 ```
+
+<br/><br/>
 
 ### 📦 Model Capabilities
 
@@ -53,6 +60,8 @@ As of `v0.0.1`, the following models are available:
 
 > Plase refer to these references:
 > [Vercel AI Models](https://sdk.vercel.ai/providers/ai-sdk-providers/google-generative-ai#model-capabilities), [Gemini API Models](https://ai.google.dev/gemini-api/docs/models/gemini)
+
+<br/><br/>
 
 ### 📖 Documentation
 
