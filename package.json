@@ -1,10 +1,12 @@
 {
   "name": "gem",
   "version": "0.0.1",
-  "description": "A more fun way to interact with Gemini.",
-  "main": "index.js",
+  "description": "💎 A more fun way to interact with Gemini.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["/dist"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "tsc"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,14 @@
   "bugs": {
     "url": "https://github.com/ezralazuardy/gem/issues"
   },
-  "homepage": "https://github.com/ezralazuardy/gem#readme"
+  "homepage": "https://github.com/ezralazuardy/gem#readme",
+  "dependencies": {
+    "@ai-sdk/google": "^0.0.14",
+    "@next/env": "^14.2.3",
+    "ai": "^3.1.12",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12"
+  }
 }
