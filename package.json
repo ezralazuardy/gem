@@ -4,9 +4,7 @@
   "description": "💎 A more fun way to interact with Gemini.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "/dist"
-  ],
+  "files": ["/dist"],
   "scripts": {
     "lint": "tsc"
   },
@@ -25,7 +23,7 @@
     "bun",
     "next"
   ],
-  "author": "Ezra Lazuardy <ezra@lazuardy.tech>",
+  "author": "Ezra Lazuardy <ezralazuardy@icloud.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ezralazuardy/gem/issues"
