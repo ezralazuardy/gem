@@ -11,7 +11,9 @@ A more fun way to interact with Gemini.
 await ask("am i deserve better?");
 ```
 
-Gem is a simple package that allows you to interact with the Gemini API in a more human-friendly way. It's like talking to a friend, but in a more professional way. It's simplify the process of sending requests to the Gemini API, so you can focus more on the conversation itself. It's even more simpler than other API wrappers.
+Gem is a simple package that allows you to interact with the Gemini API in a more human-friendly way.
+
+It's like talking to a friend, but in a more professional way. It's simplify the process of sending requests to the Gemini API, so you can focus more on the conversation itself. It's even more simpler than other API wrappers.
 
 > 🚧 This package is still under heavy development. Beware of breaking changes.
 
